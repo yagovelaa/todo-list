@@ -1,0 +1,158 @@
+.wrapper {
+  max-width: 50rem;
+  margin: -1.65rem auto;
+  padding: 0 1rem;
+}
+
+.createTaskForm {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.createTaskForm input {
+  width: 100%;
+  background: var(--gray-500);
+  color: var(--gray-100);
+
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.createTaskForm button {
+  background: var(--blue-dark);
+
+  border-radius: 8px;
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.createTaskForm button:hover {
+  background: var(--blue);
+}
+
+.createTaskForm button:disabled {
+  cursor: not-allowed;
+  background: var(--blue-dark);
+}
+
+.createTaskForm strong {
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+}
+
+.createTaskForm svg {
+  color: var(--gray-100);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6rem;
+
+  gap: 1.5rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.info div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.createdTask{
+  color: var(--blue);
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+}
+
+.doneTask{
+  color: var(--purple);
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+}
+
+.count {
+  background: var(--gray-400);
+  border-radius: 999px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 1,1875rem;
+}
+
+.count strong{
+  font-size: 0.75rem;
+  color: var(--gray-200);
+  font-family: "Inter", sans-serif;
+
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  flex-direction: column;
+  gap: 1rem;
+
+  padding: 4rem 1.5rem;
+
+  border-radius: 8px;
+  border-top: 1px solid var(--gray-400);
+}
+
+.empty svg{
+  width: 3.5rem;
+  height: 3.6rem;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
+
+  line-height: 140%;
+}
+
+.description strong{
+  font-size: 1rem;
+  color: var(--gray-300);
+}
+
+.description span{
+  color: var(--gray-300);
+
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+}
+
